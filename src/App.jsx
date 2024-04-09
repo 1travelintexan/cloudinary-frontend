@@ -8,9 +8,10 @@ import { HomePage } from "./components/HomePage";
 import { IsProtected } from "./components/IsProtected";
 
 function App() {
-  //this is how you grab data from the context
+  //thsis is how you grab data from the context
   //or take food from the frig
   const { user, setUser } = useContext(AuthContext);
+
   return (
     <>
       <Routes>
